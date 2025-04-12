@@ -6,7 +6,7 @@ language: 'en-us'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: '/'
+baseurl: /
 # Website info
 title: designbat
 description: Dreaming of ghosts
@@ -21,15 +21,15 @@ navigation: True # show the navbar links
 subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-# twitter: # replace by your username
-# facebook: # replace by your username
+twitter: ghost # replace by your username
+facebook: ghosst # replace by your username
 
 # Disqus
-# disqus: False
-# disqus_shortname: jekyllt # replace with your disqus username
+disqus: False
+disqus_shortname: jekyllt # replace with your disqus username
 
 # Google Analytics
-# google_analytics: # replace with your GA tracking identifier
+google_analytics: UA-69281367-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
@@ -69,8 +69,8 @@ lsi: False
 username: designbat
 repo: ghost
 branch: master
-relative_source: ../
-destination: ../
+relative_source: ../ghost/
+destination: ../ghost/
 production_url:  https://designbat.github.io/ghost/
 source_url:  https://github.com/designbat/ghost/
 
